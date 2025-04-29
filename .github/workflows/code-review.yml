@@ -1,0 +1,9 @@
+name: Call Gemini Code Review
+on:
+  pull_request:
+    types: [opened, synchronize]
+permissions:
+  pull-requests: write
+jobs:
+  call-review:
+    uses: Code-Review-Org/code-review-bot-central/.github/workflows/code-review-reusable.yml@main
