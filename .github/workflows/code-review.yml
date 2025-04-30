@@ -7,3 +7,5 @@ permissions:
 jobs:
   call-review:
     uses: Code-Review-Org/central-code-review-Bot/.github/workflows/code-review-reusable.yml@main
+    secrets:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
