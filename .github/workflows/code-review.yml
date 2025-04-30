@@ -6,4 +6,4 @@ permissions:
   pull-requests: write
 jobs:
   call-review:
-    uses: Code-Review-Org/code-review-bot-central/.github/workflows/code-review-reusable.yml@main
+    uses: Code-Review-Org/central-code-review-Bot/.github/workflows/code-review-reusable.yml@main
