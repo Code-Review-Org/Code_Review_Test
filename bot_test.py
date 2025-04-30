@@ -1,1 +1,1 @@
-print('Hello from bot test')
+print('Hello from bot test2')
